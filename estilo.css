@@ -1,0 +1,128 @@
+/* =========================================================
+   estilo.css — Modelo 1: Meu perfil
+   Todo o visual do site está aqui.
+   Para mudar as cores, procure os comentários TROQUE A COR
+   e troque o código que começa com #.
+   ========================================================= */
+
+/* 1. A PÁGINA */
+body {
+  background-color: #F3EEFF;   /* TROQUE A COR: fundo da página */
+  color: #2B2440;              /* TROQUE A COR: cor das letras */
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* 2. O MENU */
+.menu {
+  background-color: #2B2440;   /* TROQUE A COR: fundo do menu */
+  padding: 16px;
+  text-align: center;
+}
+
+.menu a {
+  color: #FFFFFF;              /* TROQUE A COR: letras do menu */
+  text-decoration: none;       /* tira o sublinhado do link */
+  margin: 0 12px;
+}
+
+/* 3. A APRESENTAÇÃO (foto, nome e botão) */
+.apresentacao {
+  background-color: #7C5CFF;   /* TROQUE A COR: fundo da apresentação */
+  color: #FFFFFF;              /* TROQUE A COR: letras da apresentação */
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.foto {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;           /* corta a foto sem deformar */
+  border-radius: 50%;          /* deixa a foto redonda */
+  border: 5px solid #FFD166;   /* TROQUE A COR: borda da foto */
+}
+
+h1 {
+  font-size: 40px;
+  margin: 16px 0 8px;
+}
+
+/* 4. O BOTÃO */
+.botao {
+  display: inline-block;
+  background-color: #FFD166;   /* TROQUE A COR: fundo do botão */
+  color: #2B2440;              /* TROQUE A COR: letra do botão */
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+/* :hover = quando o mouse passa em cima */
+.botao:hover {
+  background-color: #FFFFFF;   /* TROQUE A COR: botão com o mouse em cima */
+}
+
+/* 5. AS SEÇÕES */
+.secao {
+  max-width: 900px;
+  margin: 0 auto;              /* centraliza a seção na tela */
+  padding: 32px 24px;
+}
+
+h2 {
+  color: #7C5CFF;              /* TROQUE A COR: títulos das seções */
+  font-size: 28px;
+}
+
+/* 6. OS CARTÕES (Do que eu gosto) */
+.cartoes {
+  display: flex;               /* coloca os cartões lado a lado */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cartao {
+  background-color: #FFFFFF;   /* TROQUE A COR: fundo dos cartões */
+  border-radius: 16px;
+  padding: 16px;
+  flex: 1;
+  min-width: 220px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cartao img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* 7. O VÍDEO (vale para qualquer iframe da página) */
+iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+  border-radius: 16px;
+}
+
+.espaco-iframe {
+  border: 3px dashed #7C5CFF;  /* TROQUE A COR: borda do espaço do vídeo */
+  color: #7C5CFF;
+  border-radius: 16px;
+  padding: 80px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 8. O RODAPÉ */
+.rodape {
+  background-color: #2B2440;   /* TROQUE A COR: fundo do rodapé */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 32px;
+  margin-top: 32px;
+}
+
+.rodape h2 {
+  color: #FFD166;              /* TROQUE A COR: título do rodapé */
+}

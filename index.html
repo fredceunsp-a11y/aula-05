@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Meu perfil</title>
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <!-- 1. MENU -->
+  <div class="menu">
+    <a href="#sobre">Sobre mim</a>
+    <a href="#gostos">Do que eu gosto</a>
+    <a href="#video">Vídeo</a>
+    <a href="#contato">Contato</a>
+  </div>
+
+  <!-- 2. APRESENTAÇÃO -->
+  <div class="apresentacao">
+    <img src="imagens/foto-perfil.png.png"
+         alt="Minha foto"
+         class="foto">
+
+    <h1>Olá, eu sou o Matheus</h1>
+    <p>Estudo Ciências da Computação na CEUNSP.</p>
+
+    <a href="#contato" class="botao">Fale comigo</a>
+  </div>
+
+  <!-- 3. SOBRE MIM -->
+  <div class="secao" id="sobre">
+    <h2>Sobre mim</h2>
+
+    <p>
+      Tenho 19 anos, moro em Capivari e estou aprendendo
+      a criar sites. Neste perfil conto um pouco do que
+      gosto de fazer quando não estou estudando.
+    </p>
+  </div>
+
+  <!-- 4. DO QUE EU GOSTO -->
+  <div class="secao" id="gostos">
+    <h2>Do que eu gosto</h2>
+
+    <div class="cartoes">
+
+      <div class="cartao">
+        <img src="imagens/gosto-1.jpg" alt="Música">
+        <h3>Música</h3>
+        <p>Ouço de tudo um pouco, mas funk e sertanejo são os meus favoritos.</p>
+      </div>
+
+      <div class="cartao">
+        <img src="imagens/gosto-2.jpg" alt="Games">
+        <h3>Games</h3>
+        <p>Jogo com os amigos no fim de semana. Meu sonho é criar um sistema ERP/WMS completo.</p>
+      </div>
+
+      <div class="cartao">
+        <img src="imagens/gosto-3.png.png" alt="Futebol">
+        <h3>Futebol</h3>
+        <p>Jogo no time do bairro e não perco um jogo do meu time.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 5. VÍDEO DO YOUTUBE -->
+  <div class="secao" id="video">
+    <h2>Meu vídeo favorito</h2>
+
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/qAoeBL3oWdE"
+        title="Meu vídeo favorito"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- 6. RODAPÉ -->
+  <div class="rodape" id="contato">
+    <h2>Contato</h2>
+    <p>matheus00@gmail.com &middot; @matheus.dev</p>
+  </div>
+
+</body>
+</html>
